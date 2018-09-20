@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
+    <Quadrilateral/>
     <HelloWorld/>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import Quadrilateral from "@/components/Quadrilateral";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    Quadrilateral
   }
 };
 </script>
